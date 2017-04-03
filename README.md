@@ -14,6 +14,21 @@ These are the step-by step instructions for non-tech people:
 - **Windows**: run *install-and-run.bat*
 - **Linux or Mac**: run *install.sh* and wait until it finishes. Then every time you want to start the script, run *start.sh*
 
+If you get an error something like this, then it means your users.json file has issues with commas. Please double check the instructions above.
+
+```Failed at the reddit-placebot@1.1.0 start script 'node src/run.js --harmony'.
+Make sure you have the latest version of node.js and npm installed.
+If you do, this is most likely a problem with the reddit-placebot package,
+not with npm itself.
+Tell the author that this fails on your system:
+    node src/run.js --harmony
+You can get information on how to open an issue for this project with:
+    npm bugs reddit-placebot
+Or if that isn't available, you can get their info via:
+    npm owner ls reddit-placebot
+There is likely additional logging output above.
+```
+
 # Advanced
 
 ## Installation
