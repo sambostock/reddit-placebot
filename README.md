@@ -11,10 +11,12 @@ These are the step-by step instructions for non-tech people:
 - Uncompress the downloaded zip file
 - Go to the uncompressed folder
 - Rename the *users.example.json* to *users.json* and open it up to put your Reddit user names and passwords in the same format the examples (and erase the examples)
-- Windows: run *install-and-run.bat*
-- Linux or Mac: run *install.sh* and wait until it finishes. Then every time you want to start the script, run *start.sh*
+- **Windows**: run *install-and-run.bat*
+- **Linux or Mac**: run *install.sh* and wait until it finishes. Then every time you want to start the script, run *start.sh*
 
-## Advanced Installation
+# Advanced
+
+## Installation
 
 You need to have [NodeJS installed](https://nodejs.org)
 
