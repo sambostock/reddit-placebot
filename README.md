@@ -16,7 +16,7 @@ These are the step-by step instructions for non-tech people:
 
 ## Troubleshooting
 
-If you get an error something like this, then it means your users.json file has issues with commas. Please double check the instructions above.
+If you get an error something like this, then it means your `users.json` file has issues with commas. Please double check the instructions above.
 
 ```Failed at the reddit-placebot@1.1.0 start script 'node src/run.js --harmony'.
 Make sure you have the latest version of node.js and npm installed.
