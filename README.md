@@ -21,7 +21,7 @@ These are the step-by step instructions for non-tech people:
 You need to have [NodeJS installed](https://nodejs.org)
 
 ```
-git clone https://github.com/zequez/reddit-placebot
+git clone https://github.com/sambostock/reddit-placebot
 cd reddit-placebot
 npm install
 ```
