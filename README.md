@@ -1,10 +1,6 @@
 # Reddit Placebot
 
-This is a bot I made for the Reddit [/r/place](https://www.reddit.com/r/place/) event of 2017 April Fools Day.
-
 I forked this bot to protect our national flag on [/r/canada](https://www.reddit.com/r/canada/)
-
-![This is how it looks now, but it might change when you read it, visit the https://gitlab.com/sambostock/place-canada-target-image/blob/master/target.png to see how it actually is right now](https://raw.githubusercontent.com/Zequez/reddit-placebot/master/images/preview.png)
 
 ## Easy install instructions
 
