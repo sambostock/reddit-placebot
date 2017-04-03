@@ -11,6 +11,10 @@ module.exports = {
 
   DRAW_URL: 'https://www.reddit.com/api/place/draw.json',
 
+  // If a pixel's color doesn't match any of the expected colors,
+  // use the closest match. Otherwise, that pixel is skipped.
+  useClosestColor: true,
+
   // Use the REMOTE_TARGET_URL file as target, otherwise it's gonna just
   // try to read from target.bmp
   autoupdateRemoteTarget: true,

@@ -1,5 +1,7 @@
 const bmp = require('bmp-js')
+const config = require('../config')
 const colors = require('./colors')
+const closestColor = require('./closest_color')
 
 // Takes the 2 buffers and returns a list of
 // valid colors changes to make
@@ -25,7 +27,12 @@ module.exports = function (rawBoardBuffer, rawTargetBuffer) {
         let color = colors.byInt.indexOf(val)
         if (color === -1) {
           console.warn(`WARNING: Unknown color #${val.toString(16)} at X: ${x} Y: ${y}`)
-        } else {
+          if (config.useClosestColor) {
+            color = closestColor(val);
+            console.warn(`Closest match to #${val.toString(16)} is #${colors.byInt[color].toString(16)}`)
+          }
+        }
+        if (color !== -1) {
           actions.push({ x: x, y: y, color: color })
         }
       }
