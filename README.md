@@ -2,7 +2,7 @@
 
 This is a bot I made for the Reddit [/r/place](https://www.reddit.com/r/place/) event of 2017 April Fools Day.
 
-I made this bot to protect our national flag on [/r/argentina](https://www.reddit.com/r/argentina/)
+I forked this bot to protect our national flag on [/r/canada](https://www.reddit.com/r/canada/)
 
 ![This is how it looks now, but it might change when you read it, visit the placebot-argentina-target repo to see how it actually is right now](https://raw.githubusercontent.com/Zequez/reddit-placebot/master/images/preview.png)
 
@@ -19,7 +19,9 @@ These are the step-by step instructions for non-tech people:
 - Run every time you want to use it: *start.bat* (Windows) or *start.sh* (Linux or Mac)
 - Configure stuff if you need to on *config.json*, or open the start scripts and add command line arguments there
 
-Para la imagen oficial de Argentina usen *start_argentina.bat* o *start_argentina.sh*
+For the official Canadian image use *start_canada.bat* or *start_canada.sh*
+
+Pour l'image canadienne officielle, utilisez *start_canada.bat* or *start_canada.sh*
 
 ## Installation
 
@@ -47,13 +49,21 @@ Any command line options will override the options on `config.json`:
   npm run start --target <LOCAL_TARGET_FILE> --startX <targetStartX> --startY <targetStartY>
 ```
 
-### Target Oficial Argentino
+### Official Canadian Target
 
-Este comando es nosotros _boludo_:
+Run this command
 
-`npm run start --argentinaTarget`
+`npm run start --canadaTarget`
 
-This uses the file at: https://raw.githubusercontent.com/Zequez/placebot-argentina-target/master/official_target.png
+This uses the file at: https://gitlab.com/sambostock/place-canada-target-image/raw/master/target.png
+
+### Cible Canadienne Officielle
+
+Exécutez cette commande
+
+`npm run start --canadaTarget`
+
+Cela utilise le fichier trouvé à: https://gitlab.com/sambostock/place-canada-target-image/raw/master/target.png
 
 ## Configuration
 
