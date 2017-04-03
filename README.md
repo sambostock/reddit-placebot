@@ -14,6 +14,8 @@ These are the step-by step instructions for non-tech people:
 - **Windows**: run `install-and-run.bat`
 - **Linux or Mac**: run `install.sh` and wait until it finishes. Then every time you want to start the script, run `start.sh`
 
+## Troubleshooting
+
 If you get an error something like this, then it means your users.json file has issues with commas. Please double check the instructions above.
 
 ```Failed at the reddit-placebot@1.1.0 start script 'node src/run.js --harmony'.
