@@ -6,24 +6,19 @@ I forked this bot to protect our national flag on [/r/canada](https://www.reddit
 
 ![This is how it looks now, but it might change when you read it, visit the https://gitlab.com/sambostock/place-canada-target-image/blob/master/target.png to see how it actually is right now](https://raw.githubusercontent.com/Zequez/reddit-placebot/master/images/preview.png)
 
-## Non-tech install
+## Easy install instructions
 
 These are the step-by step instructions for non-tech people:
 
 - Go to [nodejs.org](https://nodejs.org/) and download and install the latest version
-- On this page, click the green *Clone or download* button and then on *Download ZIP*
+- Download this repository from this link: https://github.com/sambostock/reddit-placebot/archive/master.zip
 - Uncompress the downloaded zip file
 - Go to the uncompressed folder
 - Rename the *users.example.json* to *users.json* and open it up to put your Reddit user names and passwords in the same format the examples (and erase the examples)
-- Run one time: *install.bat* (Windows) or *install.sh* (Linux or Mac) and wait until it finishes
-- Run every time you want to use it: *start.bat* (Windows) or *start.sh* (Linux or Mac)
-- Configure stuff if you need to on *config.json*, or open the start scripts and add command line arguments there
+- Windows: run *install-and-run.bat*
+- Linux or Mac: run *install.sh* and wait until it finishes. Then every time you want to start the script, run *start.sh*
 
-For the official Canadian image use *start_canada.bat* or *start_canada.sh*
-
-Pour l'image canadienne officielle, utilisez *start_canada.bat* or *start_canada.sh*
-
-## Installation
+## Advanced Installation
 
 You need to have [NodeJS installed](https://nodejs.org)
 
@@ -48,23 +43,6 @@ Any command line options will override the options on `config.json`:
   npm run start --target <LOCAL_TARGET_FILE>
   npm run start --target <LOCAL_TARGET_FILE> --startX <targetStartX> --startY <targetStartY>
 ```
-
-### Official Canadian Target
-
-Run this command
-
-`npm run start --canadaTarget`
-
-This uses the file at: https://gitlab.com/sambostock/place-canada-target-image/raw/master/target.png
-
-### Cible Canadienne Officielle
-
-Exécutez cette commande
-
-`npm run start --canadaTarget`
-
-Cela utilise le fichier trouvé à: https://gitlab.com/sambostock/place-canada-target-image/raw/master/target.png
-
 ## Configuration
 
 ### The Target Image File
@@ -120,8 +98,6 @@ changes all at the same time, change the config:
   - `'RANDOM'`: Will draw at random points
 
 ## Testing
-
-LOL
 
 My initial intention was to make a simple script, didn't expect it to last, so
 testing manually was feasible. Now I should be writing tests, because it's getting
