@@ -10,7 +10,7 @@ These are the step-by step instructions for non-tech people:
 - Download this repository from this link: https://github.com/sambostock/reddit-placebot/archive/master.zip
 - Uncompress the downloaded zip file
 - Go to the uncompressed folder
-- Rename the `users.example.json` to `users.json` and open it up to put your Reddit user names and passwords in the same format as the examples (and erase the examples). Make sure there is a comma on every line except the last, like in the example. If you have only one account, you don't need any commas.
+- Rename the `users.example.json` to `users.json` and open it up to put your Reddit user names and passwords in the same format as the examples (and erase the examples). **Make sure there is a comma on every line except the last, like in the example. If you have only one account, you don't need any commas.**
 - **Windows**: run `install-and-run.bat`
 - **Linux or Mac**: run `install.sh` and wait until it finishes. Then every time you want to start the script, run `start.sh`
 
